@@ -2,7 +2,6 @@
 @Grab(group='org.postgresql', module='postgresql', version='42.2.2')
 
 import groovy.sql.*
-import groovy.json.*
 
 def dbUrl = "jdbc:postgresql://192.168.50.6/soconfig"
 def dbUser = "ddluser"
